@@ -15,6 +15,7 @@ main {
 }
 .signup h1,
 .signup form {
+  font-family: sans-serif;
   margin: 35px 0 0 30px;
 }
 .signup h1 {
@@ -23,9 +24,10 @@ main {
 .login {
   background-color: #11100f;
   height: 100%;
-  width: 25%;
+  width: 35%;
 }
 .login h1 {
+  font-family: sans-serif;
   color: white;
 }
 .signup form .input {
@@ -70,10 +72,39 @@ input {
 .login input::placeholder {
   color: white;
 }
+
+div.forgot_pass{
+  margin: 10px;
+}
+
+
+div.check{
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+}
+
+.checkbox1 {
+  font-size: 13px;
+  color: white;
+  margin: 10px;
+}
+
+.forgot_pass a {
+  font-size: 13px;
+  color: #ffa500;
+  text-decoration: none;
+ 
+}
+
 input[type="checkbox"] {
   margin-right: 10px;
   margin-left: 10px;
 }
+
+
+
+
 .button {
   background-color: #ffa500;
   border-bottom: none;
@@ -121,3 +152,4 @@ input[type="checkbox"] {
   font-weight: bolder;
   display: none;
 }
+
