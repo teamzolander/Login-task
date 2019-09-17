@@ -24,7 +24,7 @@ main {
 .login {
   background-color: #11100f;
   height: 100%;
-  width: 25%;
+  width: 35%;
 }
 .login h1 {
   font-family: sans-serif;
@@ -79,8 +79,9 @@ div.forgot_pass{
 
 
 div.check{
-  width: 150%;
-  display: flex
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
 }
 
 .checkbox1 {
