@@ -15,6 +15,7 @@ main {
 }
 .signup h1,
 .signup form {
+  font-family: sans-serif;
   margin: 35px 0 0 30px;
 }
 .signup h1 {
@@ -26,6 +27,7 @@ main {
   width: 25%;
 }
 .login h1 {
+  font-family: sans-serif;
   color: white;
 }
 .signup form .input {
