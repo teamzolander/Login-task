@@ -72,10 +72,38 @@ input {
 .login input::placeholder {
   color: white;
 }
+
+div.forgot_pass{
+  margin: 10px;
+}
+
+
+div.check{
+  width: 150%;
+  display: flex
+}
+
+.checkbox1 {
+  font-size: 13px;
+  color: white;
+  margin: 10px;
+}
+
+.forgot_pass a {
+  font-size: 13px;
+  color: #ffa500;
+  text-decoration: none;
+ 
+}
+
 input[type="checkbox"] {
   margin-right: 10px;
   margin-left: 10px;
 }
+
+
+
+
 .button {
   background-color: #ffa500;
   border-bottom: none;
@@ -123,3 +151,4 @@ input[type="checkbox"] {
   font-weight: bolder;
   display: none;
 }
+
