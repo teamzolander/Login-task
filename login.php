@@ -13,10 +13,11 @@ $arr = (explode(" ",$readFile));#The explode() make the content in $readFile to 
 # This output the indexed element to the server of the login details
 echo "These are the login details of the user<br><br>";
 print_r("$arr[1]<br/>");
-print_r("$arr[5]<br/>");
+print_r("$arr[5]<br/><br>");
 
 #This check the content of the array with the username and passwors of the login page
 if (($loginUsername == $arr[1]) && ($loginPassword == $arr[5])){
+    echo "============================================================================================<br>"
     echo "This is the output message  when compared with the the sign up data<br><br>";
     echo $loginUsername ." is successful<br><br>"; 
     echo $loginPassword ." is successful";
