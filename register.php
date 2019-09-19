@@ -25,7 +25,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $cofirmPassword = $_POST['confirmPassword'];
     fwrite($myfile, " $cofirmPassword");
     fclose($myfile);
-    header("location:newLogin.html");
+    header("location:newLogin.php");
 }
 # This puts the file in reading  in reading mode
 $myfile = fopen("namefile.txt", "r") or die("Unable to open file!");
