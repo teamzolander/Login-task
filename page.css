@@ -1,0 +1,149 @@
+:root{
+    --logo-base: rgba(151, 117, 107, 0.8);
+    --logo-hover: rgba(24, 21, 21, 0.74);
+    --nthchild-color: rgba(20, 9, 9, 0.897);
+    --complement-color: orangered;   
+    --input-background: rgba(0, 0, 0, 0.692);
+   
+    --nav-border: orange;
+    --hover-color: rgba(233, 73, 33, 0.952); 
+}
+
+
+html, body{
+    margin:0;
+    padding: 0;
+    width:100%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(build1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: table;
+    font-family: Montserrat;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    
+}
+
+.logo{
+    float: left;
+    font-size: 22px;
+    line-height: 80px;
+    padding: 0 4em;
+    letter-spacing: 1.2px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: var(--logo-base);
+
+}
+
+.logo a:hover{
+    
+    color: var(--logo-hover);
+}
+
+.menu {
+    float: right;
+    line-height: 60px;
+    margin: 0 10em;
+}
+
+.menu ul {
+list-style: none;    
+}
+
+.menu ul li {
+display: inline-block;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--logo-base);
+    font-weight: lighter;
+    padding: 0 20px;
+}
+
+ul li:nth-child(1) a {
+    color: var(--logo-base);
+    
+}
+
+ul li:nth-child(1) a:hover {
+    color: var(--logo-hover);
+}
+
+
+ul li:nth-child(2) a {
+    color: var(--complement-color);
+    border: 1px solid var(--nav-border
+    );
+    padding: 5px 5px;
+    border-radius: 4px;
+}
+
+ul li:nth-child(2) a:hover {
+    color: #ffffff;
+    background: orangered;
+}
+
+.header {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    text-align: center;
+}
+
+.header h1 {
+    color: var(--complement-color);
+    font-size: 50px;
+    font-weight: lighter;
+    margin-bottom: 8px;
+}
+
+.header p {
+    color: #8a8667f1;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+
+.header a {
+    text-decoration: none;
+    margin-top: 10px;
+  font-family: Montserrat;
+  font-size: 16px;
+  color: #ffffff;
+  background: var(--complement-color);
+  border: none;
+  padding: 7px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+
+
+.header a:hover {
+    color: #ffffff;
+    background: var(--hover-color);  
+
+}

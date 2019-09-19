@@ -1,0 +1,161 @@
+:root{
+    --logo-base: rgba(151, 117, 107, 0.8);
+    --logo-hover: rgba(24, 21, 21, 0.74);
+    --nthchild-color: rgba(20, 9, 9, 0.897);
+    --complement-color: orangered;   
+    --input-background: rgba(0, 0, 0, 0.692);
+   
+    --nav-border: orange;
+    --hover-color: rgba(233, 73, 33, 0.952); 
+}
+
+
+html, body{
+    margin:0;
+    padding: 0;
+    width:100%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background:  50% 50% no-repeat;
+    background-position: center;
+
+    background-size:cover;
+    
+    display: table;
+    font-family: Montserrat;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+  
+}
+
+.logo {
+    float: left;
+    font-size: 22px;
+    line-height: 80px;
+    padding: 0 4em;
+    letter-spacing: 1.2px;
+}
+
+
+
+.logo a{
+    text-decoration: none;
+    color: var(--logo-base);
+
+}
+
+.logo a:hover{
+    
+    color: var(--logo-hover);
+}
+
+.signup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--input-background);
+    border-radius: 4px;
+    padding:1.8em;
+}
+
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    color:   var(--complement-color);
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+input {
+    display: block;
+    color: #ffffff;
+    width: 320px;
+    height: 50px;
+    background: var(--input-background);
+    outline: none;
+    border: 0.5px solid rgba(0,0,0,0.3);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+
+.signup input[type="submit"]  {
+    width: 332px;
+    height: 50px;
+    font-size: 17px;
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+    background:var(--complement-color);
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.signup input[type="submit"]:hover  {
+
+    color: #ffffff;
+    background: var(--hover-color);
+}
+
+
+.signup a {
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    padding: 5px;
+    color: var(--input-background);
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    
+}
+
+.signup .shift {
+    color: var(--complement-color);
+    border-right: 1px solid var(--input-background);
+    margin-right: 0;
+    line-height: 3px;
+}
+
+.signup .shift:hover {
+    color: rgba(226, 111, 136, 0.952)
+}
+
+.signup a:hover {
+    color: var(--complement-color);
+}
+
+
+
+
+
+
+::placeholder {
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
