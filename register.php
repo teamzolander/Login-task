@@ -26,6 +26,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     fwrite($myfile, " $cofirmPassword");
     fclose($myfile);
     header("location:index.html");
+    exit;
 }
 # This puts the file in reading  in reading mode
 $myfile = fopen("namefile.txt", "r") or die("Unable to open file!");
