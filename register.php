@@ -33,4 +33,5 @@ $myfile = fopen("namefile.txt", "r") or die("Unable to open file!");
 $readFile = fread($myfile,filesize("namefile.txt"));
 print_r (explode(" ",$readFile));# This output an array to the server
 fclose($myfile);
+header("location:index.html");
 ?>
