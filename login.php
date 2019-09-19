@@ -16,8 +16,9 @@ print_r("$arr[5]<br/>");
 
 #This check the content of the array with the username and passwors of the login page
 if (($loginUsername == $arr[1]) && ($loginPassword == $arr[5])){
-    echo $loginUsername ." is successful <br>";
-    echo $loginPassword ." is successful";
+    echo $loginUsername ." <h1>is successful<br><h1>";
+    echo $loginPassword ." <h1>is successful<h1>";
+    
 }
 else{
     echo $loginUsername ." is unsuccesful<br>";
