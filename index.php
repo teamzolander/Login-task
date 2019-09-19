@@ -17,15 +17,15 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="newLogin.html">Login</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="newLogin.php">Login</a></li>
                 </ul>
             </div>
         </div> <!--end of nav div-->
         <div class="header">
             <h1>Team Zolander</h1>
             <p>We build and maintain software</p>
-            <a href="signup.html">Sign up</a>
+            <a href="signup.php">Sign up</a>
 
         </div>
     </div>
