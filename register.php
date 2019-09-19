@@ -22,7 +22,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST['password'];
     fwrite($myfile, " $password");
     # writes cofirmPassword to namefile.txt
-    $cofirmPassword = $_POST['confirm-password'];
+    $cofirmPassword = $_POST['confirmPassword'];
     fwrite($myfile, " $cofirmPassword");
     fclose($myfile);
 }
