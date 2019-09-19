@@ -13,7 +13,7 @@
     <div class="wrap">
         <div class="nav">
             <div class="logo"> 
-                <a href="index.html">Zolander</a>
+                <a href="index.php">Zolander</a>
             </div>
         </div> <!--end of nav div-->
         
@@ -25,7 +25,7 @@
                 <input type="password" name="password" placeholder="Enter Password">
                 <input type="submit" value="Login" class="button">
                 <a class="shift" href="index.html">Logout</a>
-                <a  href="signup.html">Don't have an account? Sign up here</a>
+                <a  href="signup.php">Don't have an account? Sign up here</a>
 
             </form>
         </div>
