@@ -1,4 +1,4 @@
-<?php 
+<?php session_start(); /* Starts the session */
 /*checks if the form has received a POST method when the submit button has been clicked. 
 The POST method is created in the html from the method="POST".*/
 if($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -25,6 +25,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $cofirmPassword = $_POST['confirmPassword'];
     fwrite($myfile, " $cofirmPassword");
     fclose($myfile);
+    header("location:index.html");
 }
 # This puts the file in reading  in reading mode
 $myfile = fopen("namefile.txt", "r") or die("Unable to open file!");
@@ -33,5 +34,4 @@ $myfile = fopen("namefile.txt", "r") or die("Unable to open file!");
 $readFile = fread($myfile,filesize("namefile.txt"));
 print_r (explode(" ",$readFile));# This output an array to the server
 fclose($myfile);
-header("location:index.html");
 ?>
